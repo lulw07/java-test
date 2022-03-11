@@ -5,8 +5,6 @@ import java.util.Random;
 
 public class Schiffeversenken {
     public static void main (String [] args) {
-        Scanner scr = new Scanner(System.in);
-        Random rand = new Random();
 
         int trefferf1 = 0;
         int trefferf2 = 0;
