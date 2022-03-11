@@ -16,6 +16,8 @@ public class Schiffeversenken {
         int field = firstfield(x);
         int secondfield = field + 1;
 
+
+        // Lösungen der "versteckten" Boote
         System.out.println(field);
         System.out.println(secondfield);
 
