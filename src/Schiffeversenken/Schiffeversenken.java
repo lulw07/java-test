@@ -24,7 +24,6 @@ public class Schiffeversenken {
 
                 int i = eingabe();
                 error(i, x);
-                //berechnung(field, secondfield, i, hits);
                 int h1f1 = hitf1(field, i, trefferf1);
                 int h2f2= hitf2(secondfield, i, trefferf2);
                 vorbei(field,secondfield,i);
@@ -87,8 +86,6 @@ public class Schiffeversenken {
         } else {
             System.out.println("Vorbei!");
         }
-
-
     }
 }
 
